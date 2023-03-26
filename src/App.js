@@ -11,14 +11,15 @@ import productlist from './pages/productlist.jsx';
 const App = () => {
   return (
     <BrowserRouter>
+      <Sidebar />
     <Routes>
-      <Route path="/" element={<dashboard/>}></Route>
-      <Route path="/dashboard" element={<dashboard/>}></Route>
-      <Route path="/about" element={<about/>}></Route>
-      <Route path="/comment" element={<comments/>}></Route>
-      <Route path="/analytics" element={<analytics/>}></Route>
-      <Route path="/product" element={<product/>}></Route>
-      <Route path="/productlist" element={<productlist/>}></Route>
+      <Route path="/" element={<dashboard/>} />
+      <Route path="/dashboard" element={<dashboard/>} />
+      <Route path="/about" element={<about/>} />
+      <Route path="/comment" element={<comments/>} />
+      <Route path="/analytics" element={<analytics/>} />
+      <Route path="/product" element={<product/>} />
+      <Route path="/productlist" element={<productlist/>} />
     </Routes>
     </BrowserRouter>
    
